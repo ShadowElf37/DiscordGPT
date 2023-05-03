@@ -1,0 +1,1 @@
+python train.py discord/config.py --device=cpu --compile=False  --eval_iters=50 --log_interval=1 --block_size=100 --batch_size=24 --n_layer=4 --n_head=4 --n_embd=128 --max_iters=4000 --lr_decay_iters=4000 --dropout=0.0
